@@ -59,5 +59,5 @@ plt.barh(feature_importance_df['Feature'], feature_importance_df['Importance'])
 plt.xlabel('Importance')
 plt.ylabel('Feature')
 plt.title('Feature Importance')
-plt.gca().invert_yaxis()  # Invert y-axis to display most important features on top
+plt.gca().invert_yaxis()
 plt.show()
