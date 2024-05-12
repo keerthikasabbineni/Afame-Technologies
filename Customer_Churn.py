@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score, classification_report
 from imblearn.combine import SMOTEENN
 
 # Load dataset
-df = pd.read_csv("C:\\Users\\Admin\\OneDrive\\Desktop\\keerthi\\afame\\Churn_Modelling.csv")
+df = pd.read_csv("Churn_Modelling.csv")
 
 # Drop unnecessary columns
 columns_to_drop = ['RowNumber', 'CustomerId', 'Surname']
